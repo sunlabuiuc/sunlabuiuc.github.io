@@ -1,0 +1,127 @@
+body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    line-height: 1.6;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: #fafafa;
+    color: #333;
+}
+
+h1 {
+    color: #2c3e50;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h2 {
+    color: #34495e;
+    font-size: 1.3em;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: normal;
+    font-style: italic;
+}
+
+h3 {
+    color: #2c3e50;
+    font-size: 1.2em;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    color: #34495e;
+    font-size: 1.1em;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+}
+
+ul {
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+ul ul {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.author-info {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 1.1em;
+    color: #555;
+}
+
+.description {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    margin-bottom: 40px;
+}
+
+.citation {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 4px solid #3498db;
+    font-family: 'Courier New', monospace;
+    font-size: 0.9em;
+    line-height: 1.4;
+    white-space: pre-line;
+}
+
+.citation-label {
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    font-family: 'Georgia', serif;
+}
+
+.colab-link {
+    display: inline-block;
+    margin-left: 8px;
+    margin-right: 4px;
+    padding: 2px 8px;
+    background-color: #f9ab00;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 0.75em;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    vertical-align: middle;
+    transition: background-color 0.2s;
+    white-space: nowrap;
+}
+
+.colab-link:hover {
+    background-color: #e89a00;
+    color: white;
+    text-decoration: none;
+}
+
+.colab-link::before {
+    content: "📓 ";
+}
+
+/* For sections with multiple notebooks, you can wrap them in a span */
+.colab-links {
+    display: inline;
+    margin-left: 8px;
+}
+
+.colab-links .colab-link {
+    margin-left: 0;
+    margin-right: 4px;
+}
+
+
